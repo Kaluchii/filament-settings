@@ -1,11 +1,11 @@
 <?php
 
-namespace Reworck\FilamentSettings;
+namespace Kaluchii\FilamentSettings;
 
 use Filament\PluginServiceProvider;
 use Livewire\Livewire;
-use Reworck\FilamentSettings\Components\RenderValues;
-use Reworck\FilamentSettings\Pages\Settings;
+use Kaluchii\FilamentSettings\Components\RenderValues;
+use Kaluchii\FilamentSettings\Pages\Settings;
 use Spatie\LaravelPackageTools\Package;
 
 class FilamentSettingsProvider extends PluginServiceProvider

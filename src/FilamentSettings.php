@@ -1,6 +1,6 @@
 <?php
 
-namespace Reworck\FilamentSettings;
+namespace Kaluchii\FilamentSettings;
 
 class FilamentSettings
 {

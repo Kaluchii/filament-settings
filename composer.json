@@ -1,5 +1,5 @@
 {
-    "name": "reworck/filament-settings",
+    "name": "kaluchii/filament-settings",
     "description": "Manage your settings in filament for spatie/valuestore",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Reworck\\FilamentSettings\\": "src"
+            "Kaluchii\\FilamentSettings\\": "src"
         }
     },
     "autoload-dev": {
@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Reworck\\FilamentSettings\\FilamentSettingsProvider"
+                "Kaluchii\\FilamentSettings\\FilamentSettingsProvider"
             ]
         }
     }

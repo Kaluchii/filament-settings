@@ -20,7 +20,7 @@ return [
 
 1. Require the package
 ```shell
-composer require reworck/filament-settings
+composer require kaluchii/filament-settings
 ```
 
 2. publish the configuration file
@@ -37,7 +37,7 @@ php artisan vendor:publish --tag=filament-settings-views
 
 Define your fields by adding the following in the `boot` method of your `AppServiceProvider`
 ```php
-\Reworck\FilamentSettings\FilamentSettings::setFormFields([
+\Kaluchii\FilamentSettings\FilamentSettings::setFormFields([
     \Filament\Forms\Components\TextInput::make('title'),
 ]);
 ```
